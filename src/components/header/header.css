@@ -1,0 +1,147 @@
+.solop-top-container {
+    height: 5%;
+    padding-left: 1px;
+  }
+  
+  .logo-text {
+    line-height: 1rem;
+    color: #474043;
+    font-family: Limelight;
+    font-size: 2.3rem;
+    margin-top: 5%;
+  }
+  
+  .solop-bg span {
+    color: #fff;
+  }
+  
+  .solop-navbar {
+    min-height: 10%;
+    /* border-bottom: 3px; */
+    border: solid 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-color: #790335;
+  }
+  
+  nav a {
+    color: #311923;
+    text-decoration: none;
+  }
+  
+  nav a img {
+    height: 40px;
+  }
+  
+  .solop-link-menu {
+    display: block;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+    line-height: 1;
+    cursor: pointer;
+    transition: color 1s ease-in-out, background-color 1s ease-in-out,
+      box-shadow 1s ease-in-out;
+  }
+  
+  .solop-link-menu:hover {
+    background-color: #643b48;
+    color: #fff !important;
+  }
+  
+  .solop-dropdown-menu {
+    /*need this to override .dropdown-menu border*/
+    border: none;
+    border-style: ridge;
+    background-color: #fff !important;
+  }
+  
+  .solop-dropdown-item {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #643b48;
+    color: #fff !important;
+  }
+  
+  @media screen and (min-width: 992px) {
+    nav a.navbar-brand {
+      padding: 0;
+    }
+  
+    .logo-text {
+      line-height: 1rem;
+      color: #474043;
+      font-family: Limelight;
+      font-size: 2.3rem;
+      margin-top: 5%;
+    }
+  
+    .solop-navbar {
+      min-height: 10%;
+      /* border-bottom: 3px; */
+      border: solid 2px;
+      border-left: 0px;
+      border-right: 0px;
+      border-top: 0px;
+      border-color: #790335;
+    }
+  
+    nav a img {
+      height: 65px;
+    }
+  
+    nav li.dropdown:hover div.solop-dropdown-menu {
+      display: block;
+    }
+  
+    #solop-phone-sighn,
+    #solop-email-sighn {
+      display: inline;
+    }
+  
+    #solop-phone,
+    #solop-email {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .solop-dropdown-menu {
+      width: 100%;
+    }
+  
+    .solop-navbar {
+      min-height: 10%;
+      /* border-bottom: 3px; */
+      border: solid 2px;
+      border-left: 0px;
+      border-right: 0px;
+      border-top: 0px;
+      border-color: #790335;
+    }
+  
+    .solop-dropdown-item {
+      white-space: inherit;
+    }
+  
+    .logo-text {
+      line-height: 1rem;
+      color: #474043;
+      font-family: Limelight;
+      font-size: 1.90rem;
+      margin-top: 5%;
+    }
+  }
+  

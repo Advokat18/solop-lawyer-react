@@ -1,0 +1,23 @@
+.solop-footer {
+    height: 6%;
+    background-color: #3e1724;
+  }
+  
+  .solop-footer-label {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Cera Pro", sans-serif, Arial;
+    color: white;
+    line-height: 150%;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .solop-footer-label {
+      font-size: 1.2rem;
+      font-weight: 400;
+      font-family: "Cera Pro", sans-serif, Arial;
+      color: white;
+      line-height: 200%;
+    }
+  }
+  

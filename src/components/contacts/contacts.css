@@ -1,0 +1,117 @@
+.solop-contacts-bg {
+  width: 100%;
+  height: 86%;
+  background-image: url(./contentBg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.solop-contacts {
+  width: 80%;
+  height: 60%;
+  padding: 2%;
+  color: #222020;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-family: "Cera Pro", sans-serif, Arial;
+  text-align: center;
+  line-height: 1rem;
+  background-color: #eee7e9d9;
+  position: absolute;
+  top: 24.5%;
+  left: 10%;
+}
+
+.solop-contacts-nazvy {
+  font-weight: 500;
+  color: #7a082d;
+  font-style: italic;
+  text-transform: uppercase;
+  text-decoration: underline;
+  line-height: 0rem;
+}
+
+.contacts-information {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.inform-div-style {
+  height: 100%;
+  width: 33%;
+  margin: 10px;
+}
+
+.my-icons-style {
+  font-size: 3rem;
+  position: relative;
+  line-height: 200%;
+  padding: 9px;
+  color:#54343f;
+}
+
+.text-tille-style {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 600;
+}
+
+.contacts-text {
+  font-size: 1.25rem;
+  line-height: 1.1;
+  color: inherit;
+}
+
+@media screen and (max-width: 992px) {
+  .solop-contacts-bg {
+    top: auto;
+    height: 86%;
+  }
+
+  .solop-contacts {
+    margin: auto;
+    position: absolute;
+    width: 66%;
+    height: auto;
+    padding: 10px;
+    font-size: 15px;
+    align-content: center;
+    line-height: 90%;
+    top: 18%;;
+    left: 17%;
+  }
+
+  .solop-contacts-nazvy {
+    font-weight: 500;
+    color: #7a082d;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: underline;
+    line-height: 0rem;
+  }
+
+  .contacts-information {
+    display: block;
+    height: 70%;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .inform-div-style {
+    height: auto;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .my-icons-style {
+    font-size: 2rem;
+    position: relative;
+    line-height: 200%;
+    padding: 9px;
+    color: #54343f;
+}
+
+}
