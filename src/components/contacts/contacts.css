@@ -72,16 +72,16 @@
   }
 
   .solop-contacts {
-    margin: auto;
-    position: absolute;
+    margin: 0px;
+    position: relative;
     width: 66%;
     height: auto;
     padding: 10px;
     font-size: 15px;
     align-content: center;
     line-height: 90%;
-    top: 18%;;
     left: 17%;
+    margin-top: 10%;
   }
 
   .solop-contacts-nazvy {

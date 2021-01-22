@@ -1,30 +1,31 @@
-import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Body from '../body/body';
-import Header from '../header/header';
-import Footer from '../footer/footer';
-import About from '../about/about';
-import Contacts from '../contacts/contacts';
-import Services from '../services/services';
+import React, { Component } from "react";
 
-import './app.css';
+import Indeks from "../body/indeks";
+import Header from "../header/header";
+import Footer from "../footer/footer";
+import About from "../about/about";
+import Contacts from "../contacts/contacts";
+import Services from "../services/services";
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import "./app.css";
+
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export default class App extends Component {
-
-  render () {
+  render() {
     return (
       <div>
         <Router>
-            <Header />
-              <Route path="/body" component={Body} />
-              <Route path="/about" component={About} />
-              <Route path="/services" component={Services} />
-              <Route path="/contacts" component={Contacts} />
-            <Footer />
+          <Header />
+          <Route exapt path="/" component={Indeks} />
+          <Route exapt path="/about" component={About} />
+          <Route exapt path="/services" component={Services} />
+          <Route exapt path="/contacts" component={Contacts} />
+          <Footer />
         </Router>
       </div>
     );
-  };
-};
+  }
+}

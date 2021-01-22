@@ -1,8 +1,8 @@
-import React from 'react';
-import contentBg from './contentBg.jpg';
+import React from "react";
+import contentBg from "./contentBg.jpg";
 
-import './contacts.css';
-import './content.css';
+import "./contacts.css";
+import "./content.css";
 
 const Contacts = () => {
   return (
@@ -13,26 +13,28 @@ const Contacts = () => {
           <div className="inform-div-style">
             <div>
               <i className="bi bi-telephone-fill my-icons-style"></i> <br />
-              <p className="text-tille-style">Телефон</p> 
-              <a 
-                href="tel:+380962233515" 
-                className="contacts-text">38 (096) 22 33 515</a> 
+              <p className="text-tille-style">Телефон</p>
+              <a href="tel:+380962233515" className="contacts-text">
+                38 (096) 22 33 515
+              </a>
             </div>
           </div>
           <div className="inform-div-style">
             <div>
               <i className="bi bi-geo-alt-fill my-icons-style"></i> <br />
-              <p className="text-tille-style">Адреса</p> 
-              <p 
-                className="contacts-text"> Нововолинськ<br /> вул. Святого Володимира,6 
-              </p> 
+              <p className="text-tille-style">Адреса</p>
+              <p className="contacts-text">
+                {" "}
+                Нововолинськ
+                <br /> вул. Святого Володимира,6
+              </p>
             </div>
           </div>
           <div className="inform-div-style">
             <div>
               <i className="bi bi-envelope-fill my-icons-style"></i> <br />
-              <p className="text-tille-style">Ел. пошта</p> 
-              <p className="contacts-text">soloplawyer@gmail.com</p> 
+              <p className="text-tille-style">Ел. пошта</p>
+              <p className="contacts-text">soloplawyer@gmail.com</p>
             </div>
           </div>
         </div>

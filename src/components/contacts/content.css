@@ -115,6 +115,7 @@
   width: -webkit-fill-available;
 }
 
+
 @media screen and (max-width: 992px) {
   .solop-content-bg {
     height: 86%;
@@ -151,16 +152,18 @@
 
   .solop-content {
     width: 90%;
-    height: 86%;
-    left: 5%;
+    height: 75%;
+    left: 4%;
     margin-top: 0;
     /* right: auto; */
     overflow: auto;
     color: #2e2a2a;
-    margin: 0px;
     padding: 25px;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-bottom: 1%;
     font-size: 1.1rem;
-    text-align: justify;
+    /* text-align: revert; */
     background-color: #eee7e9c7;
 }
 

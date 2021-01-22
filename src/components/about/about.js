@@ -1,12 +1,12 @@
-import React from 'react';
-import contentBg from '../contacts/contentBg.jpg';
+import React from "react";
+import contentBg from "../contacts/contentBg.jpg";
 
-import './about.css';
+import "./about.css";
 
 const About = () => {
   return (
     <div className="solop-content-bg solop-bg">
-      <img src={contentBg} alt="content backgound" />  
+      <img src={contentBg} alt="content backgound" />
       <div className="solop-content scroll-block">
         <h1>Адвокат Солоп Валентин Петрович</h1>
         <p>
@@ -21,7 +21,7 @@ const About = () => {
           ім. Я. Мудрого (м. Харків) від 2012 року. Факультет господарського
           права. Кваліфікація - юрист;
         </p>
-        <p class="solop-about-item">Стажування:</p>
+        <p className="solop-about-item">Стажування:</p>
         <p>
           2009 рік - Прокуратура, суд; 2011 рік - Прокуратура, суд; 2012 рік -
           Державна адміністрація залізничного транспорту України (юридичний

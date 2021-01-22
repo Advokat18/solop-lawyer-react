@@ -2,6 +2,9 @@
     height: 5%;
     padding-left: 1px;
   }
+  .style-btn {
+    background: #8d9092;
+  }
   
   .logo-text {
     line-height: 1rem;
@@ -106,15 +109,6 @@
       display: block;
     }
   
-    #solop-phone-sighn,
-    #solop-email-sighn {
-      display: inline;
-    }
-  
-    #solop-phone,
-    #solop-email {
-      font-size: 1rem;
-    }
   }
   
   @media screen and (max-width: 992px) {
