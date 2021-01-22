@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import React, { Component } from "react";
 
-import Indeks from "../body/indeks";
+import Indeks from "../indeks/indeks";
 import Header from "../header/header";
 import Footer from "../footer/footer";
 import About from "../about/about";
